@@ -1,18 +1,19 @@
 :root {
-    --bg-mobile-menu:#1A1512;
+  --bg-mobile-menu: #1a1512;
   --global-bg-color: #261e1c;
-/*   --global-bg-color: #4e403d; */
 
-  --social-svg-border:#c8693a;
-  --social-svg-logo:#c8693a;
-  --social-svg-bg:#fff;
+  --social-svg-border: #c8693a;
+  --social-svg-logo: #c8693a;
+  --social-svg-bg: #fff;
 
-
-  --container-max-width:390px;
+  --container-max-width: 960px;
+  --container-min-width: 330px;
 }
 
-@media (min-width: 820px) {
-    :root{
-  --global-bg-color: #80bdb1;
-    }
+@media (min-width: 1024px) {
+  :root {
+    --container-max-width: 1600px;
+    --container-min-width: 330px;
+    --global-bg-color: #80bdb1;
+  }
 }
