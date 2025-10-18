@@ -1,0 +1,13 @@
+:root {
+  --global-bg-color: #261e1c;
+
+  --social-svg-border:#c8693a;
+  --social-svg-logo:#c8693a;
+  --social-svg-bg:#fff;
+}
+
+@media (min-width: 820px) {
+    :root{
+  --global-bg-color: #80bdb1;
+    }
+}

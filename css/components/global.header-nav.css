@@ -1,0 +1,13 @@
+.header-nav__social-svg {
+  width: 40px;
+  height: 40px;
+}
+.social-svg__outer {
+  fill: var(--social-svg-border);
+}
+.social-svg__bg {
+  fill: inherit;
+}
+.social-svg__logo {
+  fill: var(--social-svg-logo);
+}
