@@ -1,3 +1,121 @@
+.header-nav {
+  height: 80px;
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 100%;
+}
+.header-nav__logo {
+  display: flex;
+
+  z-index: 105;
+  & > img {
+    width: 120px;
+  }
+}
+.header-nav__menu {
+  display: none;
+}
+
+/* === ГАМБУРГЕР / КРЕСТ === */
+.header-nav__menu-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 28px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 105;
+}
+
+.header-nav__menu-btn span {
+  height: 3px;
+  width: 100%;
+  background: #fff;
+  border-radius: 2px;
+  display: block;
+  transition: all 0.3s ease;
+  /*  transform-origin: center; */
+  transform-origin: right center;
+}
+
+.header-nav__box {
+  position: fixed;
+  inset: 0; /* растянуть на весь экран */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* центр по горизонтали */
+  justify-content: flex-start; /* центр по вертикали */
+  background: var(--bg-mobile-menu);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+  z-index: 100; /* перекрыть всё остальное */
+}
+
+/* состояние крестика */
+
+.header-nav__menu:checked + .header-nav__menu-btn span:nth-child(1) {
+  transform: rotate(45deg) translateY(11.8px);
+  /*   transform: rotate(45deg);
+  transform-origin: center center; */
+}
+.header-nav__menu:checked + .header-nav__menu-btn span:nth-child(2) {
+  opacity: 0;
+}
+.header-nav__menu:checked + .header-nav__menu-btn span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-11.8px);
+  /*   transform: rotate(-45deg);
+  transform-origin: 50% 100%; */
+}
+
+/* плавность */
+.header-nav__menu-btn span {
+  transition: all 0.3s ease;
+  transform-origin: center;
+}
+
+/* когда чекбокс активен */
+.header-nav__menu:checked ~ .header-nav__box {
+  opacity: 1;
+  pointer-events: auto;
+}
+.header-nav__menu:checked ~ .header-nav__box .header-nav__menu-link {
+  opacity: 1;
+  transform: translateY(0);
+}
+.header-nav__menu-list {
+  margin: 90px 0 0 0; /* отступ сверху 90px */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-nav__menu-item {
+  display: flex;
+}
+.header-nav__menu-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+}
+.header-nav__social {
+  margin-top: 40px; /* было 32px — чуть больше воздуха */
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.header-nav__social-icon {
+}
+
 .header-nav__social-svg {
   width: 40px;
   height: 40px;

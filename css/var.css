@@ -1,9 +1,14 @@
 :root {
+    --bg-mobile-menu:#1A1512;
   --global-bg-color: #261e1c;
+/*   --global-bg-color: #4e403d; */
 
   --social-svg-border:#c8693a;
   --social-svg-logo:#c8693a;
   --social-svg-bg:#fff;
+
+
+  --container-max-width:390px;
 }
 
 @media (min-width: 820px) {
