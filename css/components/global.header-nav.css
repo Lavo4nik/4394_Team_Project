@@ -1,7 +1,12 @@
 .header{
-    max-width: var(--container-max-width);
-    margin: 0 auto;
+    /* max-width: var(--container-max-width); */
+    /* margin: 0 auto; */
     background-color: transparent;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 .header-nav {
   height: 80px;
@@ -9,10 +14,10 @@
   min-width: var(--container-min-width);
   /* margin: 0 auto; */
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   opacity: 100%;
-  margin: 0 10%;
+  margin: 0 auto;
 }
 .header-nav__logo {
   display: flex;
@@ -129,6 +134,9 @@
 
 @media (min-width: 1024px) {
 
+    .header{
+        background: rgba(0, 0, 0, 0.5);
+    }
   .header-nav__menu,
   .header-nav__menu-btn {
     display: none;

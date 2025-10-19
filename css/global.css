@@ -6,6 +6,7 @@
 body {
   background-color: var(--global-bg-color);
   min-width: var(--container-min-width);
+  font-family: var(--ff-description);
 }
 ul {
   list-style: none;
@@ -14,6 +15,12 @@ ul {
 a {
   text-decoration: none;
 }
+.asset-wine{
+    width: 120px;
+}
+
+
+
 @media (min-width: 1024px) {
   .global-wrap {
    /*  max-width: var(--container-max-width); */

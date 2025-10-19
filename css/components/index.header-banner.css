@@ -1,14 +1,85 @@
-.header-banner{
-    background-image:url("../../img/components/index.header-banner/header-banner.jpeg");
-      background-size: cover;
+.header-banner {
+  background-image: url("../../img/components/index.header-banner/header-banner.jpeg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-   position: relative;
+  position: relative;
   height: 100vh;
+
+  /* padding: 0 10%; */
+}
+.header-banner__box {
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 1200px;
+
+  margin: 0 auto;
+}
+
+.header-banner__content {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  max-width: 600px;
+  padding-top: 120px;
+  padding-left: 40px;
   color: #fff;
+  & .asset-wine {
+    width: 80px;
+    height: 80px;
+  }
+}
+.header-banner__title {
+  font-family: var(--ff-title);
+
+  color: var(--title-color);
+}
+.header-banner__heading {
+  word-wrap: break-word;
+    font-family: var(--ff-heading);
+  font-size: 84px;
+  width: 380px;
+  font-weight: normal;
+}
+.header-banner__description {
+  font-size: 24px;
+  padding: 40px 0;
+}
+.header-banner__buttons {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  padding: 0 10%;
+
+  gap: 24px;
+}
+.header-banner__shop-now {
+  
+}
+.btn-orng {
+  display: flex;
+  min-width: 125px;
+  min-height: 50px;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: var(--shop-button-bg);
+  font-family: var(--ff-description);
+  font-weight: 700;
+  font-size: 16.5px;
+}
+.header-banner__learn-more {
+ 
+}
+.btn-white {
+  display: flex;
+  min-width: 125px;
+  min-height: 50px;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: transparent;
+  font-family: var(--ff-description);
+  font-weight: 700;
+  font-size: 16.5px;
+  border: 2px solid #fff;
 }
