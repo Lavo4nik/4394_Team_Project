@@ -7,7 +7,7 @@
   position: relative;
   height: 850px;
 
-  padding: 0 10%;
+  /* padding: 0 10%; */
 }
 .header-banner__box {
   display: flex;
