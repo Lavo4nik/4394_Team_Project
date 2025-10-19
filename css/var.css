@@ -8,12 +8,11 @@
 
   --container-max-width: 960px;
   --container-min-width: 330px;
---title-color:#c8693a;
---shop-button-bg:#c8693a;
+  --title-color: #c8693a;
+  --shop-button-bg: #c8693a;
   --ff-title: "Great Vibes", sans-serif;
-  --ff-heading:"Prata", sans-serif;
-  --ff-description:"Rubik", sans-serif;
-
+  --ff-heading: "Prata", sans-serif;
+  --ff-description: "Rubik", sans-serif;
 }
 
 @media (min-width: 1024px) {

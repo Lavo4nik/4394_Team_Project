@@ -5,14 +5,15 @@
   background-position: center center;
   background-attachment: fixed;
   position: relative;
-  height: 100vh;
+  height: 850px;
 
-  /* padding: 0 10%; */
+  padding: 0 10%;
 }
 .header-banner__box {
   display: flex;
   flex-direction: row-reverse;
-  max-width: 1200px;
+  max-width: 1600px;
+  height: 100%;
 
   margin: 0 auto;
 }
@@ -20,12 +21,13 @@
 .header-banner__content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   min-width: 300px;
   max-width: 600px;
   padding-top: 120px;
   padding-left: 40px;
   color: #fff;
-  & .asset-wine {
+  @nest .asset-wine {
     width: 80px;
     height: 80px;
   }
@@ -37,13 +39,13 @@
 }
 .header-banner__heading {
   word-wrap: break-word;
-    font-family: var(--ff-heading);
-  font-size: 84px;
+  font-family: var(--ff-heading);
+  font-size: 64px;
   width: 380px;
   font-weight: normal;
 }
 .header-banner__description {
-  font-size: 24px;
+  font-size: 18px;
   padding: 40px 0;
 }
 .header-banner__buttons {
@@ -53,7 +55,6 @@
   gap: 24px;
 }
 .header-banner__shop-now {
-  
 }
 .btn-orng {
   display: flex;
@@ -68,7 +69,6 @@
   font-size: 16.5px;
 }
 .header-banner__learn-more {
- 
 }
 .btn-white {
   display: flex;
@@ -82,4 +82,14 @@
   font-weight: 700;
   font-size: 16.5px;
   border: 2px solid #fff;
+}
+
+@media (min-width: 1024px) {
+    .header-banner{
+        height: 975px;
+    }
+
+  .header-banner__heading {
+    width: 700px;
+  }
 }
