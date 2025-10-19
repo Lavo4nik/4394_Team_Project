@@ -1,0 +1,84 @@
+.wine-benefits {
+  /* border: 1px solid #fff; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  gap: 24px;
+}
+.wine-benefits__title {
+  font-family: var(--ff-title);
+  color: var(--title-color);
+}
+.wine-benefits__heading {
+  font-family: var(--ff-heading);
+  font-size: 32px;
+  font-weight: normal;
+  padding: 0 48px;
+  text-align: center;
+}
+
+.wine-benefits__description {
+  font-family: var(--ff-description);
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+}
+.wine-benefits__content {
+  display: flex;
+  flex-direction: column;
+  
+  padding-bottom: 40px;
+ 
+}
+.wine-benefits__img {
+    display: block;
+    height: 600px;
+}
+.wine-benefits__list {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    padding-top: 40px;
+    
+
+}
+.wine-benefits__card {
+    display: flex;
+    flex-direction: column;
+    margin: 0 44px;
+    justify-content: center;
+    gap: 44px;
+
+}
+
+.wine-benefits__card-title {
+    font-family: var(--ff-heading);
+    font-size: 24px;
+    font-weight: normal;
+    position: relative;
+
+}
+.wine-benefits__card-title::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: red;
+    left: 0;
+    bottom: -20px;
+  }
+
+
+.wine-benefits__card-description {
+    font-family: var(--ff-description);
+    font-size: 16px;
+    font-weight: normal;
+    color: var(--description-color-other);
+
+}
+
+.asset-wine {
+  width: 160px;
+}
