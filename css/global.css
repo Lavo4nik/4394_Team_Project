@@ -1,12 +1,15 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: var(--global-bg-color);
   min-width: var(--container-min-width);
   font-family: var(--ff-description);
+  overflow-x: hidden;
+  
 }
 ul {
   list-style: none;

@@ -1,0 +1,56 @@
+.wine-types {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 120px 20px 80px;
+  gap: 20px;
+  justify-content: center;
+}
+.wine-types__card {
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 350px;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  gap: 40px;
+  flex-grow: 0;
+  height: 500px;
+  padding: 0 20px 20px 20px;
+  color: #fff;
+}
+.wine-types__card:nth-child(1) {
+  background-image: url("../../img/components/index.wine-types/for-your-special-events-bg.jpeg");
+  background-size: cover; /* картинка заполняет блок */
+  background-position: center; /* выравнивание по центру */
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.wine-types__card:nth-child(2) {
+  background-image: url("../../img/components/index.wine-types/for-your-special-events-bg.jpeg");
+  background-size: cover; /* картинка заполняет блок */
+  background-position: center; /* выравнивание по центру */
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.wine-types__card:nth-child(3) {
+  background-image: url("../../img/components/index.wine-types/for-your-special-events-bg.jpeg");
+  background-size: cover; /* картинка заполняет блок */
+  background-position: center; /* выравнивание по центру */
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.wine-types__title {
+    font-family: var(--ff-heading);
+    font-weight: normal;
+    font-size: 22px;
+}
+.wine-types__description {
+    color: rgb(137, 128, 130);
+    font-size: 18px;
+    font-weight: normal;
+}
+.wine-types__link {
+    color: #fff;
+}
