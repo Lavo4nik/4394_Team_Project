@@ -16,7 +16,7 @@ a {
 }
 @media (min-width: 1024px) {
   .global-wrap {
-    max-width: var(--container-max-width);
-    margin: 0 auto;
+   /*  max-width: var(--container-max-width); */
+    /* margin: 0 auto; */
   }
 }

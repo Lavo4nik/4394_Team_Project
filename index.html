@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
+    <title>Team Project</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./css/style.css" />
@@ -17,13 +17,18 @@
   </head>
   <body>
     <div class="global-wrap">
-    <header
-      class="header"
-      data-hx-trigger="load"
-      data-hx-swap="innerHTML"
-      data-hx-get="global.header-nav.html"
-    ></header>
-</div>
-   <!--  <script src="" async defer></script> -->
+      <header
+        class="header"
+        data-hx-trigger="load"
+        data-hx-swap="innerHTML"
+        data-hx-get="global.header-nav.html"
+      ></header>
+      <div
+        data-hx-trigger="load"
+        data-hx-swap="innerHTML"
+        data-hx-get="index.header-banner.html"
+      ></div>
+    </div>
+    <!--  <script src="" async defer></script> -->
   </body>
 </html>

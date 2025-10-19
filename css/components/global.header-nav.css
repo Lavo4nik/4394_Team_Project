@@ -1,3 +1,8 @@
+.header{
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+    background-color: transparent;
+}
 .header-nav {
   height: 80px;
   max-width: var(--container-max-width);
@@ -72,7 +77,7 @@
   transform: translateY(0);
 }
 .header-nav__menu-list {
-  margin: 90px 0 0 0; /* отступ сверху 90px */
+  margin: 90px 0 0 0; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -98,8 +103,8 @@
   justify-content: center;
 }
 
-.header-nav__social-icon {
-}
+/* .header-nav__social-icon {
+} */
 
 .header-nav__social-svg {
   width: 24px;
@@ -129,7 +134,7 @@
     display: none;
   }
   .header-nav{
-    /* margin: 0 auto; */
+   
     background-color:transparent;
   }
   .header-nav__box {
@@ -152,7 +157,7 @@
     opacity: 1;
     transform: none;
     font-size: 16px;
-    color:  #fff);
+    color:  #fff;
     transition: color 0.3s;
   }
     .header-nav__social {

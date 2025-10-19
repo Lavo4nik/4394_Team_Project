@@ -1,0 +1,14 @@
+.header-banner{
+    background-image:url("../../img/components/index.header-banner/header-banner.jpeg");
+      background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+   position: relative;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 10%;
+}
