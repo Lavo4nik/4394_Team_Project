@@ -84,7 +84,7 @@
   border: 2px solid #fff;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px ) {
     .header-banner{
         height: 975px;
     }

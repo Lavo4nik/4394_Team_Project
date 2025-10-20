@@ -1,4 +1,6 @@
 :root {
+
+
   --bg-mobile-menu: #1a1512;
   --global-bg-color: #261e1c;
 
@@ -20,6 +22,7 @@
   :root {
     --container-max-width: 1600px;
     --container-min-width: 330px;
-    --global-bg-color: #80bdb1;
+    
+    --content-max-width: 1200px;
   }
 }
