@@ -1,0 +1,63 @@
+.best-deals {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 1200px;
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+}
+.best-deals__title {
+}
+.best-deals__heading {
+}
+.best-deals__description {
+}
+.best-deals__slider {
+    display: flex;
+    flex: 0 0 calc(33.333% - 20px);
+
+}
+
+.best-deals__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+ .best-deals__card figure{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       
+       
+        
+    }
+
+.best-deals__card-image {
+}
+.best-deals__card-price {
+}
+.best-deals_buy-btn {
+}
+.best-deals__arrow--prev,.best-deals__arrow--next {
+    font-size: 28px;
+    align-self: center;
+
+}
+.best-deals__arrow--next {
+    margin-left: 20px;
+}
+.best-deals__arrow--prev{
+margin-right: 20px;
+}
+.best-deals__slider-dots {
+    
+}
+.best-deals__dot {
+    font-size: 40px;
+}
+.dot--active {
+}
