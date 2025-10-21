@@ -44,11 +44,20 @@
   flex-direction: column;
   /* flex: 0 1 calc(30% -20px); */
   flex: 0 0 100%;
-
+gap: 20px;
   /* min-width: 360px; */
   /* max-width: 360px; */
 
   /* scroll-snap-align: start; */
+}
+.best-deals__card > figure{
+   
+}
+
+.best-deals__card > figure > figcaption{
+    font-size: 22px;
+    padding-top: 20px;
+    
 }
 @media (min-width: 800px) and (max-width: 1024px) {
   .best-deals__card {
@@ -87,7 +96,10 @@
   flex: 0 1 100%;
 }
 .best-deals__card-price {
+    font-family: var(--ff-description);
+    font-size: 22px;
 }
+
 .best-deals_buy-btn {
 }
 .best-deals__arrow--prev,
@@ -138,8 +150,8 @@
 }
 .best-deals__dot {
   display: block;
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   background: #fff;
   border: 1px solid #fff;
   border-radius: 50%;
