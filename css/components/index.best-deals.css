@@ -3,13 +3,17 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 1200px;
+  /* height: 1200px; */
   max-width: var(--content-max-width);
-  margin: 0 auto;
+  align-self: center;
+  /* justify-self: center; */
   gap: 40px;
+  margin: 0 10%;
+  
 }
 .best-deals__title {
   font-family: var(--ff-title);
+  padding-top: 120px;
   font-weight: normal;
   color: var(--title-color);
 }
