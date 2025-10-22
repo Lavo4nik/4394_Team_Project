@@ -6,11 +6,15 @@
   /* height: 1200px; */
   max-width: var(--content-max-width);
   align-self: center;
-  /* justify-self: center; */
+  justify-self: center;
   gap: 40px;
   margin: 0 10%;
   
 }
+
+
+
+
 .best-deals__title {
   font-family: var(--ff-title);
   padding-top: 120px;
