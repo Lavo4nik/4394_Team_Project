@@ -1,0 +1,114 @@
+.awards-wines {
+    display: flex;
+  max-width: var(--content-max-width);
+  margin: 0 auto 120px;
+  flex-direction:column;
+  gap: 60px;
+  
+}
+.awards-wines__head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 120px 10% 0;
+}
+.awards-wines__title {
+  font-family: var(--ff-title);
+  font-weight: normal;
+  font-size: 20px;
+  color: var(--title-color);
+}
+.awards-wines__heading {
+  font-family: var(--ff-heading);
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.awards-wines__description {
+  font-family: var(--ff-description);
+  font-weight: normal;
+  font-size: 22px;
+}
+.awards-wines__list {
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+  align-items: center;
+  margin: 0 10%;
+  gap: 20px;
+  
+}
+.awards-wines__item {
+  display: flex;
+  flex-direction: column;
+ /*  justify-content: center;
+  align-items: center; */
+  gap: 40px;
+}
+.awards-wines__item-logo {
+  width: 90%;
+}
+.awards-wines__list-title {
+    font-family: var(--ff-description);
+    font-size: 18px;
+}
+.awards-wines__list-date {
+    font-family: var(--ff-heading);
+    font-size: 20px;
+}
+.awards-wines__list-story {
+    color: var(--description-color-other);
+    line-height: 150%;
+}
+@media(min-width:1024px){
+    .awards-wines {
+}
+.awards-wines__head {
+}
+.awards-wines__title {
+}
+.awards-wines__heading {
+}
+.asset-wine {
+}
+.awards-wines__description {
+}
+.awards-wines__list {
+display: flex;
+flex-direction: column;
+margin: auto;
+row-gap: 40px;
+
+}
+
+.awards-wines__item {
+    display: flex;
+flex-direction: row;
+/* border: 1px solid white; */
+flex-wrap: nowrap;
+align-items: center;
+justify-content: flex-start;
+
+}
+.awards-wines__item-logo {
+    /* display: flex; */
+    flex: 1 1 80px;
+    max-width: 15%;
+}
+.awards-wines__list-title {
+        flex: 1 1 60px;
+    max-width: 20%
+}
+.awards-wines__list-date {
+        flex: 1 1 60px;
+    max-width: 5%;
+}
+.awards-wines__list-story {
+        flex: 1 1 80px;
+        max-width:100%;
+    
+}
+
+}
