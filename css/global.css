@@ -35,3 +35,23 @@ a {
     /* margin: 0 auto; */
   }
 }
+
+.title__main{
+ font-family: var(--ff-title);
+ font-weight: normal;
+ font-size: 16px;
+ color: var(--title-color);
+
+}
+.heading_main{
+font-family: var(--ff-heading);
+font-size: 28px;
+font-weight: normal;
+}
+.description_main{
+  font-family: var(--ff-description);
+  font-weight: normal;
+  font-size: 50px;
+
+  line-height: 150%;
+}
