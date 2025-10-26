@@ -51,12 +51,12 @@
   /* transform: translateY(-50%); */
   font-size: 60px;
   color: var(--accent, #c16834);
-  transition: transform 0.3s, content 0.3s;
+  transition: transform 0.9s, content 0.9s;
 }
 
 .faq__item[open] summary::after {
   content: "–";
-  top: 50%;
+  top: 0;
 }
 
 .faq__item-heading {
@@ -65,6 +65,8 @@
   font-weight: normal;
   line-height: 200%;
   padding: 0;
+  list-style: none;
+  margin-right: 30px;
 
   padding-bottom: 20px;
 }
@@ -124,5 +126,6 @@
   }
   .faq__list-img {
     display: flex;
+    align-self: flex-start;
   }
 }
