@@ -69,7 +69,7 @@
    
   }
   .subscribe__text {
-    flex: 0 1 50%;
+    flex: 1 1 50%;
   }
   .subscribe__title {
   }
@@ -78,7 +78,7 @@
   .subscribe__description {
   }
   .subscribe__form {
-    flex: 0 1 50%;
+    flex: 0 1 30%;
   }
   .subscribe__input {
   }

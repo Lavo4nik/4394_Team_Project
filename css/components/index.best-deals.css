@@ -6,7 +6,7 @@
   /* height: 1200px; */
   max-width: var(--content-max-width);
   align-self: center;
-  justify-self: center;
+  /* justify-self: center; */
   gap: 40px;
   margin: 0 10%;
   
@@ -25,10 +25,12 @@
   font-family: var(--ff-heading);
   font-size: 48px;
   font-weight: normal;
+text-align: center;
 }
 .best-deals__description {
   font-family: var(--ff-description);
   font-weight: normal;
+  text-align: center;
 }
 
 .best-deals__container {

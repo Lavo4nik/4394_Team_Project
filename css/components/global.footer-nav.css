@@ -192,13 +192,14 @@
   .footer__bottom {
     display: flex;
     flex-direction: row;
-    justify-content: unset;
-    align-items: unset;
+    justify-content: center;
+    align-items: center;
   }
   .footer__bottom-wrap {
     display: flex;
     justify-content: space-between;
     align-items: unset;
+    width: 100%;
   }
   .footer__copyright {
     display: block;
