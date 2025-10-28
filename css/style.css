@@ -1,6 +1,7 @@
 @import url(./var.css);
 @import url(./global.css);
 @import url(./fonts.css);
+@import url(./components/global.age-confirm.css);
 @import url(./components/global.header-nav.css);
 @import url(./components/index.header-banner.css);
 @import url(./components/index.wine-types.css);
