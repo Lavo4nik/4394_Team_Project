@@ -1,28 +1,51 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const popup = document.querySelector(".age-confirm");
-  const acceptBtn = document.querySelector(".age-confirm__accept");
-  const ageSection = document.querySelector('[data-hx-get="global.age-confirm.html"]');
+(() => {
+  const KEY = 'ageConfirmed';
+  const PLACEHOLDER_SEL = '[data-hx-get="global.age-confirm.html"]';
+  const POPUP_SEL = '.age-confirm';
 
-  // Если в localStorage уже есть отметка — удалить секцию и popup
-  if (localStorage.getItem("ageConfirmed") === "true") {
-    if (ageSection) ageSection.remove();
-    if (popup) popup.remove();
-    return;
+  // Удаляем плейсхолдер и попап, если они есть
+  function nukeAgeUI() {
+    document.querySelectorAll(PLACEHOLDER_SEL + ', ' + POPUP_SEL)
+      .forEach(n => n.remove());
   }
 
-  // Клик по "Yes, I'm 21+"
-  if (acceptBtn) {
-    acceptBtn.addEventListener("click", (e) => {
+  // 1) Если уже подтверждено — снесем всё как можно раньше
+  if (localStorage.getItem(KEY) === 'true') {
+    // На всякий случай и сразу
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', nukeAgeUI);
+    } else {
+      nukeAgeUI();
+    }
+  }
+
+  // 2) Останавливаем HTMX-запрос подгрузки попапа, если уже подтверждено
+  //    (нужно, чтобы он даже не дергался)
+  document.addEventListener('htmx:beforeRequest', (e) => {
+    if (
+      e.target &&
+      e.target.matches(PLACEHOLDER_SEL) &&
+      localStorage.getItem(KEY) === 'true'
+    ) {
       e.preventDefault();
+      // чтобы HTMX не пытался свапать/считать это ошибкой
+      if (e.detail) {
+        e.detail.shouldSwap = false;
+        e.detail.isError = false;
+      }
+      // и сразу уберем плейсхолдер
+      e.target.remove();
+    }
+  });
 
-      // Убираем popup
-      if (popup) popup.remove();
+  // 3) ДЕЛЕГИРОВАНИЕ клика по кнопке «Yes, I'm 21+»
+  //    Работает и для динамически подгруженного попапа.
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest('.age-confirm__accept');
+    if (!btn) return;
 
-      // Сохраняем отметку
-      localStorage.setItem("ageConfirmed", "true");
-
-      // Убираем секцию из index
-      if (ageSection) ageSection.remove();
-    });
-  }
-});
+    e.preventDefault();
+    localStorage.setItem(KEY, 'true');
+    nukeAgeUI();
+  });
+})();
