@@ -47,3 +47,53 @@ a {
 .desc__color--other {
   color: var(--description-color-other);
 }
+.btn-orng {
+  display: flex;
+  min-width: 125px;
+  min-height: 50px;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: var(--shop-button-bg);
+  font-family: var(--ff-description);
+  font-weight: 700;
+  font-size: 16.5px;
+  transition: 0.5s;
+  border-radius: 1px;
+  cursor: pointer;
+}
+.btn-orng:hover {
+  background-color: #a34c21;
+  transition: 0.5s;
+}
+.btn-white {
+  display: flex;
+  min-width: 125px;
+  min-height: 50px;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: transparent;
+  font-family: var(--ff-description);
+  font-weight: 700;
+  font-size: 16.5px;
+  border: 2px solid #fff;
+  transition: 0.5s;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+.btn-white:hover {
+  background-color: #ffffff;
+  transition: 0.5s;
+  color: black;
+}
+.glb__a--hover:hover{
+  color: #c8693a;
+  transition: 0.5s;
+}
+.glb__a-more--hover:hover{
+  text-decoration: underline;!important
+  transition: 0.5s;
+  
+}

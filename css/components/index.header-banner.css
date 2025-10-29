@@ -50,34 +50,6 @@
   align-items: center;
   gap: 24px;
 }
-
-.btn-orng {
-  display: flex;
-  min-width: 125px;
-  min-height: 50px;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  background-color: var(--shop-button-bg);
-  font-family: var(--ff-description);
-  font-weight: 700;
-  font-size: 16.5px;
-}
-
-.btn-white {
-  display: flex;
-  min-width: 125px;
-  min-height: 50px;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  background-color: transparent;
-  font-family: var(--ff-description);
-  font-weight: 700;
-  font-size: 16.5px;
-  border: 2px solid #fff;
-}
-
 @media (min-width: 1024px ) {
     .header-banner{
         height: 975px;
