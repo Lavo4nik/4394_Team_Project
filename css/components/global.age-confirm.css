@@ -21,46 +21,36 @@
   position: relative;
   background-color: #251e1c;
   height: auto;
-  /* text-align: center; */
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
-  /* max-width: 600px; */
   display: flex;
   gap: 60px;
   flex-direction: column;
   padding: 80px 120px;
   justify-content: center;
   align-items: center;
-  
 }
 
 .age-confirm__buttons {
- display: flex;
- width: 100%;
- justify-content: space-around;
- gap: 20px;
-
- /* align-items: center; */
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  gap: 20px;
 }
 
-.age-confirm__accept, .age-confirm__decline {
- display: block;
- padding: 0 4%;
- text-align: center;
- 
-
-
-
+.age-confirm__accept,
+.age-confirm__decline {
+  display: block;
+  padding: 0 4%;
+  text-align: center;
 }
 
-
-.age-confirm__description{
-    font-family: var(--ff-description);
-    text-align: center;
-
+.age-confirm__description {
+  font-family: var(--ff-description);
+  text-align: center;
 }
-.age-confirm__heading{
-    font-family: var(--ff-heading);
-    font-size: 32px;
-    text-align: center;
 
+.age-confirm__heading {
+  font-family: var(--ff-heading);
+  font-size: 32px;
+  text-align: center;
 }

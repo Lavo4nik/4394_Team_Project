@@ -1,33 +1,31 @@
 .shop-history {
-    max-width: var(--content-max-width);
-    justify-self: center;
-    margin: 0 40px;
-    padding: 120px 0;
+  max-width: var(--content-max-width);
+  justify-self: center;
+  margin: 0 40px;
+  padding: 120px 0;
 }
 .shop-history__banner {
-    height: auto;
-    min-width: 100px;
-    width: 100%;
+  height: auto;
+  min-width: 100px;
+  width: 100%;
 }
 .shop-history__content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 40px;
 }
 .shop-history__item {
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 35%;
-    min-width: 300px;
-    max-width: 400px;
-    gap: 30px;
-    justify-content: flex-start;
-
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 35%;
+  min-width: 300px;
+  max-width: 400px;
+  gap: 30px;
+  justify-content: flex-start;
 }
-
-@media(min-width:1024px){
-    .shop-history__item{
+@media (min-width: 1024px) {
+  .shop-history__item {
     display: flex;
     flex-direction: column;
     flex: 1 1 20%;
@@ -35,42 +33,36 @@
     max-width: 500px;
     gap: 30px;
     justify-content: flex-start;
-    }
+  }
 }
 .shop-history__title {
-    font-family: var(--ff-description);
-    color: var(--title-color);
-    font-weight:normal;
-    font-style: italic;
-
-    font-size: 16px;
-    flex: 1 1 auto;
-    
+  font-family: var(--ff-description);
+  color: var(--title-color);
+  font-weight: normal;
+  font-style: italic;
+  font-size: 16px;
+  flex: 1 1 auto;
 }
-
-
 .shop-history__heading {
-    font-family: var(--ff-heading);
-    font-size: 22px;
-    flex: 1 1 auto;
-    position: relative;
+  font-family: var(--ff-heading);
+  font-size: 22px;
+  flex: 1 1 auto;
+  position: relative;
 }
 
-.shop-history__heading::after{
-    content: "";
-    position: absolute;
-    height: 2px;
-    width: 15%;
-    /* width: 50px; */
-    background-color: red;
-    left: 0;
-    bottom: -50%;
-
+.shop-history__heading::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 15%;
+  background-color: red;
+  left: 0;
+  bottom: -50%;
 }
 .shop-history__description {
-font-family: var(--ff-description);
-font-size: 16px;
-    color: rgb(137,128,130);
-    line-height: 150%;
-    flex: 0 1 auto;
+  font-family: var(--ff-description);
+  font-size: 16px;
+  color: rgb(137, 128, 130);
+  line-height: 150%;
+  flex: 0 1 auto;
 }

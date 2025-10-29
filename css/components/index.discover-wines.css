@@ -1,9 +1,9 @@
 .discover-wines {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-      background-image: url("../../img/components/index.discover-wines/discover-our-wines-bg.jpeg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../img/components/index.discover-wines/discover-our-wines-bg.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -14,20 +14,18 @@
   text-align: center;
 }
 .discover-wines__title {
-    font-family: var(--ff-title);
-    color: var(--title-color);
-    font-weight: normal;
-    font-size: 34px;
+  font-family: var(--ff-title);
+  color: var(--title-color);
+  font-weight: normal;
+  font-size: 34px;
 }
 .discover-wines__heading {
-    font-family: var(--ff-heading);
-    font-weight: normal;
-    font-size: 70px;
+  font-family: var(--ff-heading);
+  font-weight: normal;
+  font-size: 70px;
 }
 .discower-wines__description {
-    font-family: var(--ff-description);
-    font-weight: normal;
-    font-size: 18px;
-
+  font-family: var(--ff-description);
+  font-weight: normal;
+  font-size: 18px;
 }
-

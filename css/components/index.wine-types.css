@@ -4,7 +4,6 @@
   margin: 120px 20px 80px;
   gap: 20px;
   justify-content: center;
-  
 }
 .wine-types__card {
   display: flex;
@@ -17,46 +16,37 @@
   height: 400px;
   padding: 0 20px 20px 20px;
   color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 .wine-types__card:nth-child(1) {
   background-image: url("../../img/components/index.wine-types/for-your-special-events-bg.jpeg");
-  background-size: cover; /* картинка заполняет блок */
-  background-position: center; /* выравнивание по центру */
-  background-repeat: no-repeat;
-  width: 100%;
 }
 
 .wine-types__card:nth-child(2) {
   background-image: url("../../img/components/index.wine-types/100_organic_wines.jpeg");
-  background-size: cover; /* картинка заполняет блок */
-  background-position: center; /* выравнивание по центру */
-  background-repeat: no-repeat;
-  width: 100%;
 }
 
 .wine-types__card:nth-child(3) {
   background-image: url("../../img/components/index.wine-types/selected-grape-varieties.jpeg");
-  background-size: cover; /* картинка заполняет блок */
-  background-position: center; /* выравнивание по центру */
-  background-repeat: no-repeat;
-  width: 100%;
 }
 .wine-types__title {
   font-family: var(--ff-heading);
   font-weight: normal;
   font-size: 22px;
   position: relative;
-
 }
- .wine-types__title::after{
-    content: "";
-    position: absolute;
-    width: 40px;
-    height: 2px;
-    background-color: red;
-    left: 0;
-    bottom: -20px;
-  }
+.wine-types__title::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background-color: red;
+  left: 0;
+  bottom: -20px;
+}
 
 .wine-types__description {
   color: rgb(137, 128, 130);

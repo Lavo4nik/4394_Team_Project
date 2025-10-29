@@ -3,17 +3,11 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* height: 1200px; */
   max-width: var(--content-max-width);
   align-self: center;
-  /* justify-self: center; */
   gap: 40px;
   margin: 0 10%;
-  
 }
-
-
-
 
 .best-deals__title {
   font-family: var(--ff-title);
@@ -25,7 +19,7 @@
   font-family: var(--ff-heading);
   font-size: 48px;
   font-weight: normal;
-text-align: center;
+  text-align: center;
 }
 .best-deals__description {
   font-family: var(--ff-description);
@@ -40,8 +34,6 @@ text-align: center;
 .best-deals__slider {
   display: flex;
   overflow-x: hidden;
-  /*  scroll-snap-type: x mandatory;
-      scroll-behavior: smooth; */
   width: 100%;
 
   gap: 40px;
@@ -52,22 +44,15 @@ text-align: center;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* flex: 0 1 calc(30% -20px); */
   flex: 0 0 100%;
-gap: 20px;
-  /* min-width: 360px; */
-  /* max-width: 360px; */
-
-  /* scroll-snap-align: start; */
+  gap: 20px;
 }
-.best-deals__card > figure{
-   
+.best-deals__card > figure {
 }
 
-.best-deals__card > figure > figcaption{
-    font-size: 22px;
-    padding-top: 20px;
-    
+.best-deals__card > figure > figcaption {
+  font-size: 22px;
+  padding-top: 20px;
 }
 @media (min-width: 800px) and (max-width: 1024px) {
   .best-deals__card {
@@ -81,17 +66,12 @@ gap: 20px;
   .best-deals__card {
     flex: 0 1 calc(33% - 20px);
     min-width: 330px;
-    /* max-width: 330px; */
   }
 }
 @media (min-width: 1241px) {
   .best-deals__card {
     flex: 0 0 33%;
     max-width: 360px;
-  }
-  .best-deals__card-image {
-/*     width: 33%;
-    flex: 0 1 33%; */
   }
 }
 
@@ -106,8 +86,8 @@ gap: 20px;
   flex: 0 1 100%;
 }
 .best-deals__card-price {
-    font-family: var(--ff-description);
-    font-size: 22px;
+  font-family: var(--ff-description);
+  font-size: 22px;
 }
 
 .best-deals_buy-btn {
@@ -117,7 +97,6 @@ gap: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-
   height: 28px;
   width: 28px;
   font-size: 16px;
@@ -136,35 +115,24 @@ gap: 20px;
   .best-deals__arrow--prev,
   .best-deals__arrow--next {
     all: unset;
-     align-self: center;
-  margin: 0 10px;
+    align-self: center;
+    margin: 0 10px;
     background: transparent;
     color: #fff;
     font-size: 22px;
     box-sizing: border-box;
-    
   }
-  .best-deals__slider{
+  .best-deals__slider {
     display: flex;
-    /* justify-content: center; */
   }
-  .best-deals__container{
+  .best-deals__container {
     margin: 0 auto;
-
   }
-  .best-deals{
+  .best-deals {
     justify-self: center;
   }
 }
 
-.best-deals__arrow--next {
-  /*   right: 0;
-  transform: translateX(150%); */
-}
-.best-deals__arrow--prev {
-  /*   left: 0;
-  transform: translateX(-150%); */
-}
 .best-deals__slider-dots {
   display: flex;
   gap: 24px;

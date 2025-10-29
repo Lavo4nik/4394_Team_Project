@@ -1,5 +1,4 @@
 .video-history {
-  
   justify-self: center;
   background-image: url("../../img/components/index.video-history/video-history-bg.webp");
   background-size: cover;
@@ -13,11 +12,10 @@
   justify-content: center;
 }
 .video-history__content {
-    max-width: var(--content-max-width);
+  max-width: var(--content-max-width);
   display: flex;
   flex-direction: column;
   margin: 0 10%;
-
   gap: 20px;
 }
 .video-history__title {
@@ -69,22 +67,5 @@
 
   .video-history__content {
     flex: 0 1 20%;
-  }
-  .video-history__title {
-  }
-  .video-history__heading {
-  }
-  .asset-wine {
-  }
-  .video-history__description {
-  }
-  .video-history__link {
-  }
-  .video-history__media {
-    
-  }
-  .video-history__ico {
-  }
-  .video-history__media-title {
   }
 }

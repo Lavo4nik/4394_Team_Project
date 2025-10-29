@@ -6,15 +6,12 @@
   background-attachment: fixed;
   position: relative;
   height: 850px;
-
-  /* padding: 0 10%; */
 }
 .header-banner__box {
   display: flex;
   flex-direction: row-reverse;
   max-width: 1600px;
   height: 100%;
-
   margin: 0 auto;
 }
 
@@ -23,7 +20,6 @@
   flex-direction: column;
   justify-content: center;
   min-width: 300px;
-  /* max-width: 600px; */
   margin: 0 10%;
   padding-top: 120px;
   padding-left: 40px;
@@ -52,11 +48,9 @@
 .header-banner__buttons {
   display: flex;
   align-items: center;
-
   gap: 24px;
 }
-.header-banner__shop-now {
-}
+
 .btn-orng {
   display: flex;
   min-width: 125px;
@@ -69,8 +63,7 @@
   font-weight: 700;
   font-size: 16.5px;
 }
-.header-banner__learn-more {
-}
+
 .btn-white {
   display: flex;
   min-width: 125px;

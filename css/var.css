@@ -1,14 +1,10 @@
 :root {
-
-
   --bg-mobile-menu: #1a1512;
   --global-bg-color: #261e1c;
   --sbscribe-bg-color:#1B1613;
-
   --social-svg-border: #c8693a;
   --social-svg-logo: #c8693a;
   --social-svg-bg: #fff;
-
   --container-max-width: 960px;
   --container-min-width: 330px;
   --title-color: #c8693a;
@@ -23,7 +19,6 @@
   :root {
     --container-max-width: 1600px;
     --container-min-width: 330px;
-    
     --content-max-width: 1200px;
   }
 }

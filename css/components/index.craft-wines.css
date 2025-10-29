@@ -11,7 +11,7 @@
 }
 .craft-wines__title {
   font-family: var(--ff-title);
-  
+
   font-weight: normal;
   color: var(--title-color);
 }
@@ -25,8 +25,6 @@
   font-family: var(--ff-description);
   font-weight: normal;
 }
-
-
 .craft-wines__content {
   display: flex;
   flex-direction: column;
@@ -35,9 +33,6 @@
   justify-content: center;
   align-items: center;
 }
-
-
-
 .craft-wines__card {
   display: flex;
   flex-direction: column;
@@ -56,23 +51,15 @@
 .craft-wines__card-image {
   max-width: 340px;
 }
-.craft-wines__card-price {
-}
-.craft-wines_buy-btn {
-}
-.btn-orng {
-}
-
-
 @media (min-width: 1024px) {
   .craft-wines__content {
     flex-direction: row;
   }
-  .craft-wines__card{
+  .craft-wines__card {
     flex: 0 0 250px;
     gap: 10px;
   }
-  .craft-wines__card-image{
+  .craft-wines__card-image {
     max-width: 250px;
   }
 }

@@ -1,5 +1,4 @@
 .wine-benefits {
-  /* border: 1px solid #fff; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,7 +35,6 @@
 .wine-benefits__img {
   display: block;
   width: 100%;
-  /* height: 600px; */
 }
 .wine-benefits__list {
   display: flex;

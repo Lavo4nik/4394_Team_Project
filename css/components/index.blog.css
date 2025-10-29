@@ -33,12 +33,10 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  
 }
 .blog__post-item {
   display: flex;
   align-items: start;
-  
 }
 .blog__post-link {
   display: flex;
@@ -49,8 +47,7 @@
   max-width: 450px;
 }
 .blog__post-img {
-    width: 100%;
-    
+  width: 100%;
 }
 .blog__post-heading {
   font-family: var(--ff-heading);
@@ -63,33 +60,12 @@
   font-size: 16px;
   line-height: 150%;
 }
-@media (min-width:1024px){
-    .blog {
-}
-.blog_content {
-  margin: 0;
-}
-.blog__title {
-}
-.blog__heading {
-}
-.asset-wine {
-}
-.blog__description {
-}
-.blog__posts-list {
+@media (min-width: 1024px) {
+  .blog_content {
+    margin: 0;
+  }
+  .blog__posts-list {
     display: flex;
     flex-direction: row;
-}
-.blog__post-item {
-}
-.blog__post-link {
-}
-.blog__post-img {
-}
-.blog__post-heading {
-}
-.blog__post-desc {
-}
-
+  }
 }

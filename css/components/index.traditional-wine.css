@@ -4,36 +4,12 @@
   background-repeat: no-repeat;
   background-position: right center;
   padding: 120px 0;
-/*   width: var(--content-max-width);
-  justify-self: center; */
-}
-
-@media (min-width: 700px) and (max-width: 1024px) {
-  .traditional-wine {
-    background-position: right 25% center;
-  }
-  .traditional-wine__content{
-padding-left: 40%;
-  }
-}
-
-@media (min-width: 1024px) {
-    .traditional-wine {
-      background-position: center center;
-    
-  }
-  .traditional-wine__content{
-   padding-left: 40%;
-  }
 }
 
 .traditional-wine__content {
   display: flex;
-  /* justify-content:flex-start; */
-  /* align-items: center; */
-  flex-direction: column; 
+  flex-direction: column;
   margin: 0 10%;
-  /* width: 60%; */
   flex: 1 1 250px;
   gap: 40px;
 }
@@ -79,4 +55,21 @@ padding-left: 40%;
   position: absolute;
   left: 0;
   top: 50%;
+}
+@media (min-width: 700px) and (max-width: 1024px) {
+  .traditional-wine {
+    background-position: right 25% center;
+  }
+  .traditional-wine__content {
+    padding-left: 40%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .traditional-wine {
+    background-position: center center;
+  }
+  .traditional-wine__content {
+    padding-left: 40%;
+  }
 }

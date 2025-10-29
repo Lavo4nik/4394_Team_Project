@@ -5,8 +5,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 40px;
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 .faq__main {
 }
@@ -27,7 +25,6 @@
   font-size: 28px;
   font-weight: normal;
 }
-
 .faq__wrap {
   margin: 0 10%;
 }
@@ -40,7 +37,6 @@
   cursor: pointer;
   font-size: 20px;
   font-weight: 400;
-  /* padding: 16px 40px 16px 0; */
   list-style: none;
 }
 .faq__item summary::after {
@@ -48,17 +44,14 @@
   position: absolute;
   right: 0;
   top: 0;
-  /* transform: translateY(-50%); */
   font-size: 60px;
   color: var(--accent, #c16834);
   transition: transform 0.9s, content 0.9s;
 }
-
 .faq__item[open] summary::after {
   content: "–";
   top: 0;
 }
-
 .faq__item-heading {
   font-family: var(--ff-heading);
   font-size: 22px;
@@ -96,22 +89,12 @@
   .faq__content {
     margin: 0;
   }
-  .faq__title {
-  }
-  .faq__heading {
-  }
-  .asset-wine {
-  }
   .faq__wrap {
     display: flex;
     flex-direction: column;
     margin: 0;
-    /* flex: 0 0 60%; */
   }
   .faq__list {
-  }
-  .faq__item {
-    /*  max-width: 700px; */
   }
   .faq__item-heading {
     list-style: none;
