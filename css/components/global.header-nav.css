@@ -11,7 +11,7 @@
 .header-nav {
   height: 80px;
   max-width: var(--container-max-width);
-  min-width: var(--container-min-width);
+  /* min-width: var(--container-min-width); */
   /* margin: 0 auto; */
   display: flex;
   justify-content: space-around;

@@ -23,7 +23,8 @@
   flex-direction: column;
   justify-content: center;
   min-width: 300px;
-  max-width: 600px;
+  /* max-width: 600px; */
+  margin: 0 10%;
   padding-top: 120px;
   padding-left: 40px;
   color: #fff;

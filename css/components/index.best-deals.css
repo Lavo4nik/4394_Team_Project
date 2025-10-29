@@ -144,6 +144,17 @@ gap: 20px;
     box-sizing: border-box;
     
   }
+  .best-deals__slider{
+    display: flex;
+    /* justify-content: center; */
+  }
+  .best-deals__container{
+    margin: 0 auto;
+
+  }
+  .best-deals{
+    justify-self: center;
+  }
 }
 
 .best-deals__arrow--next {

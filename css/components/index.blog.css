@@ -67,6 +67,7 @@
     .blog {
 }
 .blog_content {
+  margin: 0;
 }
 .blog__title {
 }
