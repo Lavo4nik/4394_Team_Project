@@ -39,7 +39,7 @@
 
 .age-confirm__accept,
 .age-confirm__decline {
-  display: block;
+  display: flex;
   padding: 0 4%;
   text-align: center;
 }

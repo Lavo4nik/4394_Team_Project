@@ -50,10 +50,10 @@
   align-items: center;
   gap: 24px;
 }
-@media (min-width: 1024px ) {
-    .header-banner{
-        height: 975px;
-    }
+@media (min-width: 1024px) {
+  .header-banner {
+    height: 975px;
+  }
 
   .header-banner__heading {
     width: 700px;
