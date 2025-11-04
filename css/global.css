@@ -93,7 +93,7 @@ a {
   transition: 0.5s;
 }
 .glb__a-more--hover:hover{
-  text-decoration: underline;!important
+  text-decoration: underline;
   transition: 0.5s;
   
 }
